@@ -1,3 +1,7 @@
 .bg-img{
     background-image: url(../assets/images/background.a9369827.png);
 }
+.slick-prev:before, .slick-next:before{
+    
+    color: black !important;
+}

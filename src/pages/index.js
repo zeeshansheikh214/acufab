@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Banner from '@/components/Banner'
 import Banner_steps from '@/components/Banner_steps'
 import Team from '@/components/Team'
+import Service from '@/components/Service'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Header/>
       <Banner/>
       <Team/>
+      <Service/>
     </div>
   )
 }
