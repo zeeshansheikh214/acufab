@@ -5,3 +5,14 @@
     
     color: black !important;
 }
+/* .ser-slider .slick-track {
+    width: 100% !important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+} */
+.ser-slider .slick-track .slick-slide {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}

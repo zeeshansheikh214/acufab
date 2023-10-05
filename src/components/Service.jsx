@@ -1,16 +1,17 @@
-import React from 'react'
-import { ser_1 } from '@/assets';
+import React from 'react';
+import {ser_1} from '@/assets';
 import Image from 'next/image';
 import Slider from "react-slick";
 
 const Service = () => {
+  
     const settings = {
         dots: false,
         arrows: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         responsive: [
           {
@@ -54,9 +55,9 @@ const Service = () => {
             <h3 className='text-red-700 tracking-[0.6rem] uppercase'>Our secure and reliable fabrication work</h3>
             <h4 className='uppercase absolute top-0 text-center left-0 right-0 font-extrabold text-white/10 text-9xl'>SERVICES</h4>
         </div>
-        <div className='container mx-auto'>
+        <div className='container mx-auto ser-slider'>
             <Slider {...settings}>
-                <div className='w-full'>
+                <div className='max-w-[400px]'>
                     <Image
                         src={ser_1}
                         width={400}
@@ -69,7 +70,7 @@ const Service = () => {
                         <a href='#' className='bg-gray-200 py-2 hover:bg-red-700 hover:text-white table w-full'>Ream More</a>
                     </div>
                 </div>
-                <div className=' w-full '>
+                <div className=' max-w-[400px] '>
                     <Image
                         src={ser_1}
                         width={400}
@@ -82,9 +83,49 @@ const Service = () => {
                         <a href='#' className='bg-gray-200 py-2 hover:bg-red-700 hover:text-white table w-full'>Ream More</a>
                     </div>
                 </div>
+                <div className=' max-w-[400px] '>
+                    <Image
+                        src={ser_1}
+                        width={400}
+                        height={600}
+                        alt="service 1"
+                    />
+                    <div className='content bg-white py-4 text-center px-3'>
+                        <h2 className='text-center font-bold text-1xl'>Custom Steel Fabrication </h2>
+                        <p className='py-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatibus iste dolorem tempora velit aperiam illum mollitia, nesciunt perferendis quisquam accusamus ab sunt culpa dicta.</p>
+                        <a href='#' className='bg-gray-200 py-2 hover:bg-red-700 hover:text-white table w-full'>Ream More</a>
+                    </div>
+                </div>
+                <div className=' max-w-[400px] '>
+                    <Image
+                        src={ser_1}
+                        width={400}
+                        height={600}
+                        alt="service 1"
+                    />
+                    <div className='content bg-white py-4 text-center px-3'>
+                        <h2 className='text-center font-bold text-1xl'>Custom Steel Fabrication </h2>
+                        <p className='py-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatibus iste dolorem tempora velit aperiam illum mollitia, nesciunt perferendis quisquam accusamus ab sunt culpa dicta.</p>
+                        <a href='#' className='bg-gray-200 py-2 hover:bg-red-700 hover:text-white table w-full'>Ream More</a>
+                    </div>
+                </div>
+                <div className=' max-w-[400px] '>
+                    <Image
+                        src={ser_1}
+                        width={400}
+                        height={600}
+                        alt="service 1"
+                    />
+                    <div className='content bg-white py-4 text-center px-3'>
+                        <h2 className='text-center font-bold text-1xl'>Custom Steel Fabrication </h2>
+                        <p className='py-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatibus iste dolorem tempora velit aperiam illum mollitia, nesciunt perferendis quisquam accusamus ab sunt culpa dicta.</p>
+                        <a href='#' className='bg-gray-200 py-2 hover:bg-red-700 hover:text-white table w-full'>Ream More</a>
+                    </div>
+                </div>
+                
             </Slider>
         </div>
-      </div>
+      </div> 
     </div>
   )
 }
