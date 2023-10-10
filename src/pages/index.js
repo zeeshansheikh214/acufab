@@ -7,6 +7,7 @@ import Team from '@/components/Team'
 import Service from '@/components/Service'
 import Gallery from '@/components/Gallery'
 import Form from '@/components/Form'
+import Testimonials from '@/components/Testimonials'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Service/>
       <Gallery/>
       <Form/>
+      <Testimonials/>
     </div>
   )
 }
