@@ -6,6 +6,7 @@ import Banner_steps from '@/components/Banner_steps'
 import Team from '@/components/Team'
 import Service from '@/components/Service'
 import Gallery from '@/components/Gallery'
+import Form from '@/components/Form'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Team/>
       <Service/>
       <Gallery/>
+      <Form/>
     </div>
   )
 }

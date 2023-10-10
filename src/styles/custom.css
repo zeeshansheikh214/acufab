@@ -16,3 +16,8 @@
     display: flex;
     justify-content: center;
 }
+.contact-bg{
+    background-image: url(../assets/images/contact-img.jpg);
+    background-size: cover;
+    background-position: center center;
+}

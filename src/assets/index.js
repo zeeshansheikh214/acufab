@@ -19,6 +19,7 @@ import fourth_gallary_3 from "./images/fourth-gallary-3.jpg"
 import fourth_gallary_4 from "./images/fourth-gallary-4.jpg"
 import fourth_gallary_5 from "./images/fourth-gallary-5.jpg"
 import fourth_gallary_6 from "./images/fourth-gallary-6.jpg"
+import contact from "./images/contact-img.jpg"
 
 
 export {
@@ -42,6 +43,7 @@ export {
     fourth_gallary_3,
     fourth_gallary_4,
     fourth_gallary_5,
-    fourth_gallary_6
+    fourth_gallary_6,
+    contact
 
 }

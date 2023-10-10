@@ -89,33 +89,27 @@ const Gallery = () => {
     ],
   };
   let [isOpen, setIsOpen] = useState(false);
-  
-
+  const [selectedIndex, setSelectedIndex] = useState(null);
+  const [zoomedInImage, setZoomedInImage] = useState(null);
   function closeModal() {
     setIsOpen(false);
     setSelectedIndex(null);
     setZoomedInImage(null);
   }
-  const [selectedIndex, setSelectedIndex] = useState(null);
-  const [zoomedInImage, setZoomedInImage] = useState(null);
   
 
   function openModal(index) {
     setIsOpen(true);
     setSelectedIndex(index);
-    // setZoomedInImage(index);
+
     
   }
   function openModal2(index) {
-    // setIsOpen(true);
-    // setSelectedIndex(index);
     setZoomedInImage(index);
-    // console.log(zoomedInImage);
-    
   }
   return (
     <div>
-      <div className=" py-8">
+      <div className="pt-8 pb-24">
         <div className="relative text-center py-14">
           <h2 className="uppercase text-4xl text-[#373E51]  font-bold">
             Our <span className="text-red-700">Gallery</span>
@@ -235,7 +229,7 @@ const Gallery = () => {
                   <div className="py-2"></div>
                     <div className="grid sm:grid-cols-1">
                         <div className="flex cursor-pointer">
-                          {console.log(zoomedInImage)}
+                          
                             <Image src={zoomedInImage}/>
                         </div>
                   </div>
